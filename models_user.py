@@ -3,7 +3,7 @@ from datetime import datetime
 
 
 class User(db.Model):
-    UserID = db.Column(db.Integer, primary_key=True, autoincrement= True)
+    UserID = db.Column(db.Integer, primary_key=True, autoincrement=True)
     firstName = db.Column(db.String(64), nullable=False)
     lastName = db.Column(db.String(64), nullable=False)
     userName = db.Column(db.String(64), nullable=False)
